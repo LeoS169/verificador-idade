@@ -1,0 +1,68 @@
+body {
+    background-color: #5357cf;
+    font: normal 15pt Arial;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 5%;
+    margin: auto;
+    width: 450px;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.615); /*O primeiro valor é a sombra horizontal
+    (negativo põe à esquerda e positivo à direita), o segundo é a sombra vertical
+    (negativo acima, positivo abaixo) e o terceiro é o quanto ela vai espalhar.*/
+
+}
+
+hgroup {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1#tit_hp {
+    text-shadow: -5px 5px 5px rgba(0, 0, 0, 0.702);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+
+}
+form {
+    border: 5px solid rgb(98, 97, 97);
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.456);
+    padding: 1cm;
+    border-radius: 10px;
+    background-color: rgb(214, 213, 213);
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+input#ano_nasc {
+    width: 90px;
+    height: 30px;
+    border: 0.9mm solid black;
+    border-radius: 10px;
+    background-color: rgb(201, 199, 199);
+}
+
+input#verif_bot {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #7e82f0;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    padding: 1cm;
+}

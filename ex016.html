@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo inicial</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+
+        <hgroup>
+
+            <h1 id="tit_hp">Verificador de idade</h1>
+
+        </hgroup>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <div>
+
+                <form action="">
+
+                    <div id="ano_nasc">
+
+                        <label for="ano_nasc">Ano de nascimento:</label>
+                        <input type="number" name="ano_nasc" id="ano_nasc" min="0">
+
+                    </div>
+                    <hr>
+                    <div id="sex">
+
+                        <label for="mas">Masculino</label>
+                        <input type="radio" name="sex" id="mas">
+
+                        <label for="fem">Feminino</label>
+                        <input type="radio" name="sex" id="fem">
+
+                    </div>
+                    <hr>
+
+                    <input type="button" value="Verificar" id="verif_bot">
+                    
+                    
+
+                </form>
+
+            </div>
+
+            <div id="result">
+
+                <p id="result">Aqui, aparecerá resultado da verificação.</p>
+
+            </div>
+
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>&copy;Todos os direitos reservados à @Leo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
